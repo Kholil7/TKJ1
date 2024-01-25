@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kamis{
+    text-align: center;
+    border: 1px solid black;
+    width: 450px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body{
+    background:#152677;
+    background-size: cover;
+    color: white;
+}
+
+.kamis p{
+    padding-top: 140px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.kamis h2{
+    padding-top: 80px;
+    font-size: 50px;
+}

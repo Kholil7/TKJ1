@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jadwal XII TKJ 1</title>
+  <link rel="stylesheet" href="day.css">
+  <script>
+    // Membuat fungsi untuk mendapatkan nama hari
+    function getHari() {
+      // Membuat objek Date
+      var date = new Date();
+
+      // Mendapatkan indeks hari (0-6)
+      var hariIndex = date.getDay();
+
+      // Array dengan nama-nama hari
+      var hari = ["Sekarang Masih Libur Ya, Waktunya Istirahat :)", " SENIN <br><br><br> ASJ <br> MTK <br> PKK", " SELASA <br><br><br> BHS. GERMAN <br> BHS. INDONESIA <br> PPKN <br> PAI <br> AJS", " RABU <br><br><br> MATEMATIKA <br> TLJ <br> PAI <br> BHS. INGGRIS <br> PKK", " KAMIS <br><br><br> PKK <br> TLJ", " JUM'AT <br><br><br> AIJ", "Sekarang Libur Ya, Waktunya Istirahat :)"];
+
+      // Mengembalikan nama hari berdasarkan indeks
+      return hari[hariIndex];
+    }
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="kamis">
+      <p id="hari"></p>
+    </div>
+  </div>  
+
+  <script>
+    // Memanggil fungsi getHari dan menampilkan hasilnya di elemen dengan id "hari"
+    document.getElementById("hari").innerHTML = getHari();
+  </script>
+</body>
+</html>
